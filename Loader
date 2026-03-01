@@ -1,7 +1,7 @@
 local Scripts = {
     -- Garden Horizons
     [130594398886540] = [[loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/ceee1e77cd24bd181037ca83e7c29abe8ec4a2c8818287019c4d5a15735b0437/download"))()]],
-    -- Horizon 
+    -- Bronx3 
     [16472538603] = [[loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/ac998659ee0c03ffe74344ea7d7e1d7f500811bf64b37f7a5b82005bd04941ad/download"))()]],
 }
 
@@ -10,5 +10,5 @@ if ScriptURL then
     loadstring(ScriptURL)()
 else
     setclipboard('YoYo this aint supported')
-    game.Players.LocalPlayer:Kick("| This game is not supported.")
+    game.Players.LocalPlayer:Kick("| Yoyo this game aint supported!")
 end
