@@ -10,5 +10,5 @@ if ScriptURL then
     loadstring(ScriptURL)()
 else
     setclipboard('YoYo this aint supported')
-    game.Players.LocalPlayer:Kick("| YoYo this game aint supported!")
+    game.Players.LocalPlayer:Kick("|YoYo this game aint supported!")
 end
