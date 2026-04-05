@@ -1,6 +1,6 @@
 local Scripts = {
 -- Sailor
-    [16472538603] = [[loadstring(game:HttpGet("testin"))()]],
+    [16472538603] = [[loadstring(game:HttpGet("loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/b83a301b522d60c722b0d8b8399e48b0dc75e1d4b802eddd59e45671c3fb29f7/download"))()"))()]],
 }
 
 local ScriptURL = Scripts[game.PlaceId]
