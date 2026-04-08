@@ -4,7 +4,7 @@ Junkie.identifier = "1036673"
 Junkie.provider = "Provider"
 
 local SentinelUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerFoxy0/Keysystem/refs/heads/main/Loader/Keysystem.lua"))()
-local AuthorizeToken = crypt.hash(tick()..tostring(math.random()), "sha256")-- This generates a unique key to prevent key bypassing. Do not modify.
+local AuthorizeToken = crypt.hash(tick()..tostring(math.random()), "sha256")
 local WSS_TO_LOADTHIS_TOKEN = "JUNKIE_WSS_ONLY_v1"
 local LOADTHIS_URL = "https://pastebin.com/raw/N9KTG8ZB"
 
